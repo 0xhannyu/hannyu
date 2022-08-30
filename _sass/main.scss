@@ -1,6 +1,6 @@
 @font-face {
   font-family: Estandar;
-  src: url(/assets/fonts/Estandar-Regular.ttf);
+  src: url(../../assets/fonts/Estandar-Regular.ttf);
 }
 
 @mixin button-template {
@@ -41,7 +41,7 @@ div {
 
 body {
   background: linear-gradient(rgba(0,0,0,.70), rgba(0,0,0,.70)),
-  url(/assets/images/bg.jpeg) center/cover no-repeat fixed rgba(255, 255, 255, 0.2);
+  url(../../assets/images/bg.jpeg) center/cover no-repeat fixed rgba(255, 255, 255, 0.2);
   z-index: -1;
   box-shadow: inset 0 0 100px black;
   padding: 0;
