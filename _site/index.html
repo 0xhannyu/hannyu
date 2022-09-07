@@ -8,6 +8,13 @@
 
   </head>
   <body>
+    <script type="text/javascript">
+      (function($){
+        $(document).on('contextmenu', 'img', function() {
+          return false;
+        })
+      })(jQuery);
+    </script>
     <div> </div>
     <img class="logo" src="/hannyu/assets/images/logo.png" alt="logo">
       <h1>hanu</h1>
