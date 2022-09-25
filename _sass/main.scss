@@ -77,36 +77,18 @@ p {
   font-size: 1rem;
   margin-top: -5px;
 }
-.instapage {
-  @include button-template;
-  margin-top: 40px;
+
+.pty{
+  margin-bottom: 20px;
 }
 
-.instapage:hover {
-  background-color: var(--clr);
-  box-shadow: 0 0 35px var(--clr);
-  letter-spacing: 0.40rem;
-}
-
-.anilist {
+.refbutton {
   @include button-template;
   margin-top: 20px;
 }
 
-.anilist:hover {
+.refbutton:hover {
   background-color: var(--clr);
   box-shadow: 0 0 35px var(--clr);
   letter-spacing: 0.40rem;
 }
-
-.lastfm {
-  @include button-template;
-  margin-top: 20px;
-}
-
-.lastfm:hover {
-  background-color: var(--clr);
-  box-shadow: 0 0 35px var(--clr);
-  letter-spacing: 0.40rem;
-}
-

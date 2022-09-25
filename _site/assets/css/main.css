@@ -10,16 +10,10 @@ h1 { font-family: Estandar; text-align: center; color: white; font-size: large; 
 
 p { font-family: Estandar; text-align: center; color: antiquewhite; font-size: 1rem; margin-top: -5px; }
 
-.instapage { margin: auto; max-width: 500px; min-width: 100px; padding: 15px 20px; text-align: center; text-decoration: none; font-family: Estandar; color: white; letter-spacing: 2px; font-size: medium; line-height: 1.5; display: block; background-color: black; border: 1px solid whitesmoke; border-radius: 30px; transition: all 0.3s ease; box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); margin-top: 40px; }
+.pty { margin-bottom: 20px; }
 
-.instapage:hover { background-color: var(--clr); box-shadow: 0 0 35px var(--clr); letter-spacing: 0.40rem; }
+.refbutton { margin: auto; max-width: 500px; min-width: 100px; padding: 15px 20px; text-align: center; text-decoration: none; font-family: Estandar; color: white; letter-spacing: 2px; font-size: medium; line-height: 1.5; display: block; background-color: black; border: 1px solid whitesmoke; border-radius: 30px; transition: all 0.3s ease; box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); margin-top: 20px; }
 
-.anilist { margin: auto; max-width: 500px; min-width: 100px; padding: 15px 20px; text-align: center; text-decoration: none; font-family: Estandar; color: white; letter-spacing: 2px; font-size: medium; line-height: 1.5; display: block; background-color: black; border: 1px solid whitesmoke; border-radius: 30px; transition: all 0.3s ease; box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); margin-top: 20px; }
-
-.anilist:hover { background-color: var(--clr); box-shadow: 0 0 35px var(--clr); letter-spacing: 0.40rem; }
-
-.lastfm { margin: auto; max-width: 500px; min-width: 100px; padding: 15px 20px; text-align: center; text-decoration: none; font-family: Estandar; color: white; letter-spacing: 2px; font-size: medium; line-height: 1.5; display: block; background-color: black; border: 1px solid whitesmoke; border-radius: 30px; transition: all 0.3s ease; box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); margin-top: 20px; }
-
-.lastfm:hover { background-color: var(--clr); box-shadow: 0 0 35px var(--clr); letter-spacing: 0.40rem; }
+.refbutton:hover { background-color: var(--clr); box-shadow: 0 0 35px var(--clr); letter-spacing: 0.40rem; }
 
 /*# sourceMappingURL=main.css.map */
