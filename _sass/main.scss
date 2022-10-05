@@ -10,7 +10,6 @@
   min-width: 100px;
 
   padding: 15px 20px;
-  text-align: center;
   text-decoration: none;
   
   font-family: Estandar;
@@ -19,7 +18,8 @@
   font-size: medium;
   line-height: 1.5;
 
-  display: block;
+  display: flex;
+  justify-content: center;
   background-color: black;
 
   border: 1px solid whitesmoke;
@@ -85,10 +85,22 @@ p {
 .refbutton {
   @include button-template;
   margin-top: 20px;
+  position: relative;
 }
 
 .refbutton:hover {
   background-color: var(--clr);
   box-shadow: 0 0 35px var(--clr);
   letter-spacing: 0.40rem;
+}
+
+.svglg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: currentColor;
+  left: 20px;
+  width: 35px;
+  height: 35px;
+  -webkit-mask-size: 100%;
 }
