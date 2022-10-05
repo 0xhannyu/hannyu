@@ -16,6 +16,6 @@ p { font-family: Estandar; text-align: center; color: antiquewhite; font-size: 1
 
 .refbutton:hover { background-color: var(--clr); box-shadow: 0 0 35px var(--clr); letter-spacing: 0.40rem; }
 
-.svglg { position: absolute; top: 50%; transform: translateY(-50%); background-color: currentColor; left: 20px; width: 35px; height: 35px; -webkit-mask-size: 100%; }
+.svglg { position: absolute; top: 50%; transform: translateY(-50%); background-color: white; left: 20px; width: 35px; height: 35px; -webkit-mask-size: 100%; }
 
 /*# sourceMappingURL=main.css.map */
