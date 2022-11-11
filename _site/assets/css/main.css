@@ -18,4 +18,6 @@ p { font-family: Estandar; text-align: center; color: antiquewhite; font-size: 1
 
 .svglg { position: absolute; top: 50%; transform: translateY(-50%); background-color: white; left: 20px; width: 35px; height: 35px; -webkit-mask-size: 100%; }
 
+#discordProf { margin-top: 40px; }
+
 /*# sourceMappingURL=main.css.map */
