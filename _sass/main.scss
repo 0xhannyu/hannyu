@@ -48,9 +48,9 @@ body {
   padding: 0;
   margin: 0;
   backdrop-filter: blur(10px) saturate(50%);
-  height: 100vh;
+  height: 100%;
   width: 100%;
-  overflow: hidden;
+  overflow: auto;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -109,4 +109,9 @@ p {
 #discordProf {
   margin-top: 40px;
   align-content: center;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #777;
 }
